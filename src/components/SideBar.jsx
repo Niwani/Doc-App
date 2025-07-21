@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import classes from './SideBar.module.css'
+import classes from './SideBar.module.css';
+import dashImage from '../assets/dashboard.png';
+import calenderImage from '../assets/time.png';
+import profileImage from '../assets/profile.png';
+import settingsImage from '../assets/settings.png';
+import exitImage from '../assets/exit.png'
 
 export default function SideBar () {
     return (
@@ -10,26 +15,26 @@ export default function SideBar () {
             <nav className={classes.nav}>
                 <ul className={classes.navbar}>
                     <li className={classes.active}>
-                        <Link to="/">
-                            <img src="dashboard.png" alt="" className={classes.imageActive} />
+                        <Link to="./">
+                            <img src={dashImage} alt="" className={classes.imageActive} />
                         <p className={classes.dashboard}>Dashboard</p>
                         </Link>
                     </li>
                     <li>
                         <Link to="/calendar">
-                            <img src="time.png"  alt="" />
+                            <img src={calenderImage}  alt="" />
                         <p>Calender</p>
                         </Link>
                     </li>
                     <li>
                         <Link to="/profile">
-                            <img src="profile.png" alt="" />
+                            <img src={profileImage} alt="" />
                         <p>Profile</p>
                         </Link>
                     </li>
                     <li>
                         <Link to="/settings">
-                            <img src="settings.png" alt="" />
+                            <img src={settingsImage} alt="" />
                         <p>Settings</p>
                         </Link>
                     </li>
@@ -37,14 +42,14 @@ export default function SideBar () {
             </nav>
             <div className={classes.profileSection}>
         <img
-            src="profile.png"
+            src={profileImage}
           alt="Dr Anne Snowdon"
           className={classes.profilePic}
         />
         <p>Dr Anne Snowdon</p>
     </div>
     <button className={classes.logout}>
-        <img src="exit.png" alt="" className={classes.buttonImage} />
+        <img src={exitImage} alt="" className={classes.buttonImage} />
         <span className={classes.text}>Log out</span>
     </button>
     </div>
