@@ -1,0 +1,12 @@
+.mainDash {
+  flex: 1;
+  padding: 30px;
+  background-color: #d5dde4;
+  margin-left: 0vh;
+}
+
+.topSection {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }

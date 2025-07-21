@@ -1,0 +1,106 @@
+.sidebar {
+  width: 150px; 
+  background-color: #f8faff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  box-shadow: 2px 0 8px rgba(200, 108, 108, 0.05);
+  border-radius: 50px 0px 0px 50px;
+}
+
+.sidebar li {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.logo{
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #007bff;
+}
+
+.navbar img {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d5dde4;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #d5dde4;
+}
+
+.navbar img.imageActive {
+  background: #007bff;
+  box-shadow: 0 0 50px 2px #50a0f5;
+}
+
+.nav ul li {
+  padding: 15px 20px;
+  color: #333;
+  margin-bottom: -2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.nav ul li:hover {
+  background-color: #e6f0ff; 
+  color: #007bff;
+}
+
+.dashboard {
+  color: #007bff;
+  font-weight: 400;
+}
+
+.profileSection {
+  margin-top: 24px;
+}
+
+.profileSection p {
+  margin-top: -2px;
+}
+
+.profilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.logout {
+    margin-top: 40px;
+    background-color: transparent;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline;
+    padding-bottom: 20px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.buttonImage {
+  width: 20px;
+  height: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%
+}
+
+ul p {
+  margin-top: 2px;
+  color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+}

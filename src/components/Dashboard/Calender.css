@@ -1,0 +1,52 @@
+.calenderBox {
+  border: 2px solid white;
+  height: 250px;
+  border-radius: 15%;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.title {
+  text-align: left;
+  padding-left: 10px;
+  font-weight: 600;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(7, 30px); 
+  gap: 2px; 
+  padding: 10px;
+}
+  
+.box {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #d5dde4;
+  border-radius: 7px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.box17 {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #007bff; 
+  border-radius: 7px;
+  background-color: #007bff;
+  font-size: 15px;
+  color: white;
+  box-shadow: 0 0 50px 2px #50a0f5;
+}
+
+.active {
+  border: 3px solid #007bff;
+}

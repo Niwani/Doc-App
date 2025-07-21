@@ -1,0 +1,63 @@
+.greeting-card {
+    /* flex: 1; */
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background-image: url("../../assets/greetingCard.png");
+    height: 211px;
+    width: 60vh;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.inside-text {
+    text-align: left;
+    margin-top: 10px;
+}
+  
+  .inside-text h3 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  .greeting-card .reminder-text {
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+  
+.greeting-card .good-bye {
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+  .greeting-card button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+.button:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transition: color 0.3s ease;
+  }
+
+.button.clicked {
+  color: black;
+  }
+  

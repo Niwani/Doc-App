@@ -1,0 +1,110 @@
+.image {
+  width: 20px;
+  height: 20px;
+  padding-top: 15px;
+}
+
+.eachTimeline {
+  border: solid #bcc4d0;
+  border-radius: 15px;
+  display: flex;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width: 35vh;
+}
+
+.eachTimeline:hover {
+  border: solid #007bff;
+}
+
+.actives {
+  border-radius: 15px;
+  display: flex;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #007bff;
+  box-shadow: 0 1px 2px #007bff;
+}
+
+.next {
+  border: solid #bcc4d0;
+  border-radius: 15px;
+  display: flex;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width: 35vh;
+  background: #bcc4d0;
+}
+
+.name{
+  margin-left: 10px;
+}
+
+.time{
+  margin-left: 80px;
+  padding-right: 5px;
+}
+
+.dashboard {
+  padding-left: 40px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.inline {
+  text-align: left;
+}
+
+.line {
+  border-top: 2px solid black;
+  width: 50%;
+  justify-self: center;
+  margin-top: 20px;
+}
+
+.endShift {
+  border: solid #007bff;
+  background: #007bff;
+  border-radius: 15px;
+  padding: 10px 50px ;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  width: 36vh;
+  justify-content: center;
+}
+
+.endShift:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transition: color 0.3s ease;
+}
+
+.endShift.clicked {
+  background-color: white;
+  color: black;
+  border: solid white;
+}
+
+.setReminder {
+  border: solid white;
+  background: white;
+  border-radius: 15px;
+  padding: 10px 55px ;
+  margin-top: 25px;
+  cursor: pointer;
+  width: 36vh;
+  justify-content: center;
+}
+
+.setReminder.onclick {
+  border: solid #007bff;
+  background: #007bff;
+  color: white;
+}
+
+.setReminder:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transition: color 0.3s ease;
+}

@@ -1,0 +1,65 @@
+.appointments h3 {
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.appointment-list {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 20px;
+    margin-left: -15px;
+}
+
+.all-cards {
+    margin-left: 10px;
+}
+  
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    height: 130px;
+    min-width: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+}
+  
+.card.active {
+    border: 3px solid #007bff;
+    box-shadow: 0 5px 5px #007bff;
+}
+
+.card p {
+    font-weight: 600;
+}
+
+.card:hover{
+    border: 3px solid #007bff;
+    box-shadow: 0 5px 5px #007bff;
+}
+
+.time {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #666;
+    margin-right: 15px;
+    
+}
+
+.time.activeTime {
+    color: #007bff;
+}
+  
+.image {
+    width: 30px;
+   height: 30px;
+}
+
+h5 {
+    font-weight: 300;
+    color: #666;
+}
