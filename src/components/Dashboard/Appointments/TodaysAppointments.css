@@ -1,17 +1,19 @@
+
 .appointments h3 {
     padding-top: 20px;
     text-align: left;
     margin-left: 50px;
     font-weight: 600;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 .appointment-list {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     overflow-x: auto;
     padding: 20px;
     margin-left: -15px;
+    justify-content: center;
 }
 
 .all-cards {
@@ -22,8 +24,8 @@
     background: #fff;
     border-radius: 10px;
     padding: 15px;
-    height: 130px;
-    min-width: 100px;
+    height: 20vh;
+    min-width: 120px;
     text-align: center;
     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
 }
@@ -44,7 +46,7 @@
 
 .time {
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 0.7rem;
     color: #666;
     margin-right: 15px;
     
@@ -54,9 +56,9 @@
     color: #007bff;
 }
   
-.image {
-    width: 30px;
-   height: 30px;
+.images {
+    width: 20%;
+   height: 3vh;
 }
 
 h5 {

@@ -1,16 +1,20 @@
 .image {
-  width: 20px;
-  height: 20px;
-  padding-top: 15px;
+  width: 10%;
+  height: auto;
+  padding-top: 10px;
 }
 
 .eachTimeline {
   border: solid #bcc4d0;
   border-radius: 15px;
   display: flex;
-  padding-left: 10px;
+  padding: 5px;
   margin-bottom: 10px;
-  width: 35vh;
+  min-width: 250px;
+  width: 80%;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
 }
 
 .eachTimeline:hover {
@@ -18,29 +22,56 @@
 }
 
 .actives {
+  padding: 5px;
   border-radius: 15px;
   display: flex;
   padding-left: 10px;
   margin-bottom: 10px;
-  border: 2px solid #007bff;
+  border: solid #007bff;
   box-shadow: 0 1px 2px #007bff;
+  min-width: 250px;
+  width: 80%;
 }
 
 .next {
+  padding: 5px;
   border: solid #bcc4d0;
   border-radius: 15px;
   display: flex;
   padding-left: 10px;
   margin-bottom: 10px;
-  width: 35vh;
+  min-width: 250px;
+  width: 80%;;
   background: #bcc4d0;
 }
 
 .name{
   margin-left: 10px;
+  flex-grow: 1;
+  font: bold;
+  
 }
 
-.time{
+.time p {
+  white-space: nowrap;
+}
+
+.div-time {
+  text-align: left;
+}
+
+.times {
+  padding-right: 5px;
+}
+
+.timeline-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1; /* make it stretch between image and end */
+}
+
+.shorttimes {
   margin-left: 80px;
   padding-right: 5px;
 }
@@ -70,8 +101,9 @@
   margin-top: 20px;
   cursor: pointer;
   color: white;
-  width: 36vh;
+  width: 90%;
   justify-content: center;
+  justify-self: center;
 }
 
 .endShift:hover {
@@ -93,8 +125,9 @@
   padding: 10px 55px ;
   margin-top: 25px;
   cursor: pointer;
-  width: 36vh;
+  width: 90%;
   justify-content: center;
+  justify-self: center;
 }
 
 .setReminder.onclick {

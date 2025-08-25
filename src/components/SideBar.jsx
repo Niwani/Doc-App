@@ -11,7 +11,7 @@ import exitImage from '../assets/exit.png'
 export default function SideBar () {
     return (
         <div className={classes.sidebar}>
-            <h3 className={classes.logo}><a href="/">DocApp</a></h3>
+            <h3 className={classes.logos}><a href="/">DocApp</a></h3>
             <nav className={classes.nav}>
                 <ul className={classes.navbar}>
                     <li className={classes.active}>

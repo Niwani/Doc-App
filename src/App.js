@@ -5,12 +5,10 @@ import Homepage from './components/pages/Homepage';
 import Calendar from './components/pages/Calendar';
 import Profile from './components/pages/Profile';
 import Settings from './components/pages/Settings';
-import SideBar from './components/SideBar';
 
 function App() {
   return (
       <div className="App">
-        <SideBar />
         <Homepage />
         <div className='main-content'>
         <Routes>

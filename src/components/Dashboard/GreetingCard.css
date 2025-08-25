@@ -1,43 +1,45 @@
 .greeting-card {
     /* flex: 1; */
-    background: #fff;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    text-align: center;
-    background-image: url("../../assets/greetingCard.png");
-    height: 211px;
-    width: 60vh;
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    margin-top: 40px;
-    margin-left: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  background-image: url("../../assets/greetingCard.png");
+  width: 90%;
+  min-width: 300px;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  /* margin-top: 10px; */
+  /* margin: 40px auto; */
 }
 
 .inside-text {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 1.0px;
+    padding: 1px;
 }
   
   .inside-text h3 {
-    margin: 10px 0;
+    margin: 20px 0;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.4rem;
   }
   
   .greeting-card .reminder-text {
-    font-size: 14px;
+    font-size: 1rem;
     color: #666;
     font-weight: 600;
-    margin-top: 0px;
+    margin: 15px auto;
   }
   
 .greeting-card .good-bye {
-    font-size: 14px;
+    font-size: 1rem;
     color: #666;
     font-weight: 600;
-    margin-top: 0px;
+    margin-top: 15px auto;
 }
 
   .greeting-card button {
@@ -48,7 +50,9 @@
     border-radius: 8px;
     cursor: pointer;
     margin-top: 30px;
+    min-width: 150px;
     font-weight: bold;
+    width: auto;
   }
 
 .button:hover {
@@ -61,3 +65,17 @@
   color: black;
   }
   
+  @media (max-width: 500px) {
+    .greeting-card {
+      padding: 15px;
+      background-size: cover; /* image adapts better on small screens */
+    }
+  
+    .inside-text h3 {
+      font-size: 1.2rem;
+    }
+  
+    .greeting-card button {
+      width: 100%;  /* full width button on mobile */
+    }
+  }

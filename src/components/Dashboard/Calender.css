@@ -1,10 +1,20 @@
 .calenderBox {
   border: 2px solid white;
-  height: 250px;
+  height: auto;
+  width: 40%;
+  min-width: 300px;
   border-radius: 15%;
   background-color: white;
   margin-left: 50px;
-  margin-top: 40px;
+  /* margin-top: 60px; */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.calender-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
@@ -12,23 +22,24 @@
   padding-left: 10px;
   font-weight: 600;
   margin-left: 10px;
-  padding-top: 10px;
 }
 
 .box-container {
   display: grid;
-  grid-template-columns: repeat(7, 30px); 
-  gap: 2px; 
-  padding: 10px;
+  grid-template-columns: repeat(7, 1fr); 
+  gap: 6px; 
+  width: 100%;
 }
   
 .box {
-  width: 20px;
-  height: 20px;
+  max-width: 75%;
+  min-width: 70%;
+  height: 2.5vh;
   border: 3px solid #d5dde4;
   border-radius: 7px;
   background-color: white;
   margin-right: 10px;
+  /* aspect-ratio: 1; */
 }
 
 .box:hover {
@@ -37,14 +48,18 @@
 }
 
 .box17 {
-  width: 20px;
-  height: 20px;
+  max-width: 75%;
+  min-width: 70%;
+  height: 2.5vh;
   border: 3px solid #007bff; 
   border-radius: 7px;
   background-color: #007bff;
-  font-size: 15px;
+  font-size: 1rem;
   color: white;
   box-shadow: 0 0 50px 2px #50a0f5;
+  justify-content: center;
+  padding: 0.2px;
+  /* aspect-ratio: 1; */
 }
 
 .active {

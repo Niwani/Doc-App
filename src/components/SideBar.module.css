@@ -1,5 +1,6 @@
 .sidebar {
-  width: 150px; 
+  width: 20%;
+  max-width: 200px; 
   background-color: #f8faff;
   display: flex;
   flex-direction: column;
@@ -9,19 +10,20 @@
 }
 
 .sidebar li {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
-.logo{
-  font-size: 24px;
+.logos{
+  font-size: 1.4rem;
   margin-bottom: 40px;
   color: #007bff;
 }
 
 .navbar img {
-  width: 20px;
-  height: 20px;
+  width: 20%;
+  max-width: 20%;
+  height: auto;
   border: 2px solid #d5dde4;
   padding: 15px;
   border-radius: 15px;
@@ -60,8 +62,8 @@
 }
 
 .profilePic {
-  width: 40px;
-  height: 40px;
+  width: 5vh;
+  height: auto;
   border-radius: 50%;
   margin-bottom: 5px;
 }
@@ -82,8 +84,8 @@
 }
 
 .buttonImage {
-  width: 20px;
-  height: 20px;
+  width: 2vh;
+  height: 2vh;
 }
 
 ul {

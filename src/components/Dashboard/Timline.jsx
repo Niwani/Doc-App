@@ -26,7 +26,8 @@ const TIMELINE = [
         id: 't4',
         name: 'Break',
         time: '07:30 AM',
-        image: require('../../assets/coffee-cup.png')
+        image: require('../../assets/coffee-cup.png'),
+        short: true
     },
     {
         id: 't5',
@@ -77,12 +78,14 @@ export default function Timeline() {
                     }
                     return (
                         <div key={id} className={className}>
-                            <img src={timeline.image} alt={timeline.name} className='image' />
+                          <img src={timeline.image} alt={timeline.name} className='image' />
+                      
+                          <div className="timeline-text">
                             <p className='name'>{timeline.name}</p>
                             <p className='time'>{timeline.time}</p>
+                          </div>
                         </div>
-                    )
-                    
+                      );
                 })}
             </div>
             <div className='line'></div>

@@ -50,7 +50,7 @@ export default function TodaysAppointments() {
                 {APPOINTMENTS.map((appt, id) => (
                     <div key={id} className="all-cards">
                         <div className={`card ${appt.active ? 'active' : ''}`}>
-                        <img src={profileImage} alt="profile" className="image"/>
+                        <img src={profileImage} alt="profile" className="images"/>
                         <p>{appt.firstName}</p>
                         <span>{appt.lastName}</span>
                         <h5>{appt.title}</h5>

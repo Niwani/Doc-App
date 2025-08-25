@@ -6,6 +6,7 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .report-card {
@@ -14,7 +15,8 @@
     border-radius: 12px;
     flex: 1;
     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
-    min-width: 250px;
+    max-width: 40%;
+    /* min-width: 250px; */
   }
   
   .report-header {
@@ -26,16 +28,15 @@
   
   .report-icon {
     color: #007bff;
-    font-size: 20px;
     margin-right: 10px;
-    height: 20px;
+    height: 3vh;
   }
   
   .report-header p {
     flex: 1;
     margin: 0;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.9rem;
     text-align: left;
     margin-left: 10px;
     font-weight: bold;
@@ -49,7 +50,7 @@
 }
   
   .percentage {
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 600;
     color: #007bff;
     margin-left: 30px;
@@ -58,8 +59,8 @@
   
   .bar {
     background: #e6f0ff;
-    height: 8px;
-    width: 30vh;
+    height: 1vh;
+    width: 50%;
     border-radius: 5px;
     overflow: hidden;
     margin-left: 40px;
