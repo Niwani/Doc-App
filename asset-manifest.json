@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Doc-App/static/css/main.97476f55.css",
-    "main.js": "/Doc-App/static/js/main.08edf962.js",
+    "main.css": "/Doc-App/static/css/main.e1d3622c.css",
+    "main.js": "/Doc-App/static/js/main.b990e32c.js",
     "static/js/453.f7d50f1f.chunk.js": "/Doc-App/static/js/453.f7d50f1f.chunk.js",
     "static/media/greetingCard.png": "/Doc-App/static/media/greetingCard.187c8be036f7c0b1a455.png",
+    "static/media/settings.png": "/Doc-App/static/media/settings.271948b3d5ea6e6f9dc2.png",
     "static/media/profile.png": "/Doc-App/static/media/profile.96c2d4b3c0983185dc21.png",
+    "static/media/exit.png": "/Doc-App/static/media/exit.23215b973df1c0492efe.png",
     "static/media/report (1).png": "/Doc-App/static/media/report (1).7b46e5247e84393aacf2.png",
     "static/media/coffee-cup.png": "/Doc-App/static/media/coffee-cup.0f9e8ef71165ad20f15f.png",
     "index.html": "/Doc-App/index.html",
-    "main.97476f55.css.map": "/Doc-App/static/css/main.97476f55.css.map",
-    "main.08edf962.js.map": "/Doc-App/static/js/main.08edf962.js.map",
+    "main.e1d3622c.css.map": "/Doc-App/static/css/main.e1d3622c.css.map",
+    "main.b990e32c.js.map": "/Doc-App/static/js/main.b990e32c.js.map",
     "453.f7d50f1f.chunk.js.map": "/Doc-App/static/js/453.f7d50f1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97476f55.css",
-    "static/js/main.08edf962.js"
+    "static/css/main.e1d3622c.css",
+    "static/js/main.b990e32c.js"
   ]
 }
